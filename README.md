@@ -4,7 +4,7 @@ This Bash script is designed to automate the fuzzing process using the ffuf tool
 
 ## Prerequisites
 
-- [ffuf](https://github.com/ffuf/ffuf) - Install it with `go get -u github.com/ffuf/ffuf`.
+- [ffuf](https://github.com/ffuf/ffuf) - Install it with `go install github.com/ffuf/ffuf/v2@latest`.
 
 ## Usage
 
