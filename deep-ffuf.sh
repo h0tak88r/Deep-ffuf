@@ -34,6 +34,7 @@ fi
 # Loop through each host in the file and execute the ffuf commands
 while IFS= read -r url; do
     echo "Fuzzing $url"
+    echo "Fuzzing $url" | notify --bulk
 
     # Fuzzing with GET requests
     ffuf -u "$url/FUZZ" -w "$wordlist" -mc 200
